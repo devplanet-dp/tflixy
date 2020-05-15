@@ -1,0 +1,55 @@
+name: tflixy
+description: A Flutter application to get details about tv series trends.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  video_player: ^0.10.8+1
+  http: ^0.12.0+4
+  flutter_rating_bar: ^3.0.0
+  page_view_indicators: ^1.3.1
+  transparent_image: ^0.1.0
+  url_launcher: ^4.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway/Raleway-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Raleway/Raleway-Bold.ttf
+          weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Regular.ttf
+        - asset: assets/fonts/Lato/Lato-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Lato/Lato-Bold.ttf
+          weight: 700
+
